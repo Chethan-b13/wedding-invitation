@@ -10,14 +10,14 @@ const Header = () => {
     useEffect(() => {
       setTimeout(() => {
         setmute(false)
-      }, 2000);
+      }, 500);
     }, [])
     
 
     return (
         <>
         <section className='header'>
-            <video src={sampleVideo} loop autoPlay muted></video>
+            <video src={sampleVideo} loop autoPlay muted={mute}></video>
         </section>
         <section className='header__content flexColumn gap20'>
             <div className="flexColumn">
