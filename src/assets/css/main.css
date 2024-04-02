@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Iceland&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Iceland&family=Montez&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+    font-family: "Iceland",cursive;
+}
+
+.App{
+    margin-bottom: 10px;
+}
+
+.goldColor{
+    color: #C4A676 !important;
+}
+
+.primaryTextColor{
+    color: #939985 !important;
+}
+
+.cursiveFont{
+    font-family: "Montez", cursive !important;
+}
+
+h3{
+    letter-spacing: 0px;
+    font-size: 20px;
+}
+
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gap10{
+    gap: 10px;
+}
+
+.gap15{
+    gap: 15px;
+}
+
+.gap20{
+    gap: 20px;
+}
+
+.flexBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button{
+    border: none;
+    background: #939985;
+    border-radius: 8px;
+    padding: 10px 8px;
+    color: #fff;
+    font-family: "Iceland",cursive;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
