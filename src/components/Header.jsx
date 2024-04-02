@@ -1,23 +1,25 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import sampleVideo from '../assets/videos/sample1.mp4';
 import "../assets/css/header.css"
 import heart from "../assets/images/heart.svg"
+import { FaVolumeMute, FaVolumeUp  } from "react-icons/fa";
 
 const Header = () => {
 
-    const [mute, setmute] = useState(true);
+    const videoRef = useRef()
 
-    useEffect(() => {
-      setTimeout(() => {
-        setmute(false)
-      }, 500);
-    }, [])
+    const [mute, setmute] = useState(true);
     
 
     return (
         <>
-        <section className='header'>
-            <video src={sampleVideo} loop autoPlay muted></video>
+        <section className='header' onClick={()=>{setmute(!mute)}}>
+            <video preLoad="auto" ref={videoRef} src={sampleVideo} loop autoPlay muted={mute}></video>
+            <div className="volumeIcons">
+                {
+                    mute ? <FaVolumeMute /> : <FaVolumeUp />
+                }
+            </div>
         </section>
         <section className='header__content flexColumn gap20'>
             <div className="flexColumn">

@@ -3,6 +3,18 @@
     height: 80vh;
 }
 
+.volumeIcons{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    
+}
+
+.volumeIcons svg{
+    font-size: 15px;
+    color: silver;
+}
+
 .header video{
     object-fit: cover;
     width: 100%;
