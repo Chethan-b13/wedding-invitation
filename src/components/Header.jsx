@@ -17,7 +17,7 @@ const Header = () => {
     return (
         <>
         <section className='header'>
-            <video src={sampleVideo} loop autoPlay muted={mute}></video>
+            <video src={sampleVideo} loop autoPlay muted></video>
         </section>
         <section className='header__content flexColumn gap20'>
             <div className="flexColumn">
