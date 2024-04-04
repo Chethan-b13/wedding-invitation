@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wedding-invitation/static/css/main.b6c88298.css",
-    "main.js": "/wedding-invitation/static/js/main.498552b0.js",
+    "main.js": "/wedding-invitation/static/js/main.541ac49e.js",
     "static/media/sample1.mp4": "/wedding-invitation/static/media/sample1.6092c20459d9f7b487ed.mp4",
     "static/media/vitor-pinto-3bAJYaK37yE-unsplash.jpg": "/wedding-invitation/static/media/vitor-pinto-3bAJYaK37yE-unsplash.375138a3b0819ced7f1a.jpg",
     "static/media/jeremy-wong-weddings-K41SGnGKxVk-unsplash.jpg": "/wedding-invitation/static/media/jeremy-wong-weddings-K41SGnGKxVk-unsplash.3b84f569c74fc905d1d1.jpg",
@@ -21,10 +21,10 @@
     "static/media/heart.svg": "/wedding-invitation/static/media/heart.107fe46493ac8b7b1809a57e36f81612.svg",
     "index.html": "/wedding-invitation/index.html",
     "main.b6c88298.css.map": "/wedding-invitation/static/css/main.b6c88298.css.map",
-    "main.498552b0.js.map": "/wedding-invitation/static/js/main.498552b0.js.map"
+    "main.541ac49e.js.map": "/wedding-invitation/static/js/main.541ac49e.js.map"
   },
   "entrypoints": [
     "static/css/main.b6c88298.css",
-    "static/js/main.498552b0.js"
+    "static/js/main.541ac49e.js"
   ]
 }
