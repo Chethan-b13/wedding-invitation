@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 
 const Carousel = () => {
-    const imageNames = [
+    const imageNames = useMemo(() => [
         'bride.jpg',
         'brooke-cagle-oMtXGNw4ZEs-unsplash.jpg',
         'callie-morgan-yXwxlJPsDeU-unsplash.jpg',
@@ -12,7 +12,7 @@ const Carousel = () => {
         'main-banner.jpg',
         'nathan-dumlao-5BB_atDT4oA-unsplash.jpg',
         'save-date.jpg'
-    ];
+    ], []);
 
     const [counter, setcounter] = useState(0);
 
@@ -36,6 +36,16 @@ const Carousel = () => {
     //     clearTimeout(timer)
     //   }
     // }, [counter2])
+
+    useEffect(() => {
+        // Preload images
+        const preloadedImages = [];
+        imageNames.forEach(imageName => {
+            const img = new Image();
+            img.src = require(`../assets/images/couples/${imageName}`);
+            preloadedImages.push(img);
+        });
+    }, [imageNames]);
     
 
     return (
