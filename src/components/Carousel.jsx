@@ -26,17 +26,6 @@ const Carousel = () => {
       }
     }, [counter,imageNames.length])
 
-
-    // useEffect(() => {
-    //   const timer = setTimeout(() => {
-    //     setcounter2(Math.floor(Math.random() * imageNames.length));
-    //   }, 3500);
-    
-    //   return () => {
-    //     clearTimeout(timer)
-    //   }
-    // }, [counter2])
-
     useEffect(() => {
         // Preload images
         const preloadedImages = [];

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useState } from 'react'
 import sampleVideo from '../assets/videos/sample1.mp4';
 import "../assets/css/header.css"
 import heart from "../assets/images/heart.svg"
@@ -6,15 +6,13 @@ import { FaVolumeMute, FaVolumeUp  } from "react-icons/fa";
 
 const Header = () => {
 
-    const videoRef = useRef()
-
     const [mute, setmute] = useState(true);
     
 
     return (
         <>
         <section className='header' onClick={()=>{setmute(!mute)}}>
-            <video playsInline={true} ref={videoRef} src={sampleVideo} loop autoPlay muted={mute} preload="auto"></video>
+            <video src={sampleVideo} loop autoPlay playsInline muted={mute}></video>
             <div className="volumeIcons">
                 {
                     mute ? <FaVolumeMute /> : <FaVolumeUp />
