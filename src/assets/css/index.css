@@ -29,7 +29,6 @@
 .CarouselContainer{
     background-size: cover;
     background-position: center;
-    /* background-attachment: fixed; */
     padding: 5rem 0;
     position: relative;
     height: 60vh;
@@ -61,6 +60,18 @@
     opacity: 1;
     transition: all .3s ease-in-out;
     animation: zoomin .8s ease-in-out;
+}
+
+.CarouselContainer h1{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 18px;
+}
+
+.CarouselContainer a{
+    color: white;
+    font-size: 12px;
+    /* text-decoration: none; */
 }
 
 
