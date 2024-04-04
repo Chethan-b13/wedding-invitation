@@ -14,7 +14,7 @@ const Header = () => {
     return (
         <>
         <section className='header' onClick={()=>{setmute(!mute)}}>
-            <video preload="auto" ref={videoRef} src={sampleVideo} loop autoPlay muted></video>
+            <video playsInline={true} ref={videoRef} src={sampleVideo} loop autoPlay muted={mute} preload="auto"></video>
             <div className="volumeIcons">
                 {
                     mute ? <FaVolumeMute /> : <FaVolumeUp />
