@@ -26,7 +26,7 @@ const Gallery = () => {
                             return (
                                 indx === 2 ?
                                 <div className="videoContainer horizontal">
-                                    <video poster={poster} src={"https://firebasestorage.googleapis.com/v0/b/kalanidhi-kala-studios.appspot.com/o/sample3.mp4?alt=media&token=ddf07e1c-b83d-4353-ae82-87ae97a6ba90"} loop autoPlay playsInline muted></video>
+                                    <video src={"https://firebasestorage.googleapis.com/v0/b/kalanidhi-kala-studios.appspot.com/o/sample3.mp4?alt=media&token=ddf07e1c-b83d-4353-ae82-87ae97a6ba90"} loop autoPlay playsInline muted></video>
                                 </div>
                                 : <img key={indx} src={require(`../assets/images/couples/${imgurl}`)} style={{width:"100%"}} alt={imgurl} />
                             )
@@ -39,7 +39,7 @@ const Gallery = () => {
                             return (
                                 indx === 1 ?
                                 <div className="videoContainer vertical">
-                                    <video poster={poster} src={sampleVideo} loop autoPlay playsInline muted></video>
+                                    <video src={sampleVideo} loop autoPlay playsInline muted></video>
                                 </div>
                                 : <img key={indx} src={require(`../assets/images/couples/${imgurl}`)} style={{width:"100%"}} alt={imgurl} />
                             )
