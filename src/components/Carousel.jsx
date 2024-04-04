@@ -39,7 +39,6 @@ const Carousel = () => {
 
     return (
         <div className='CarouselContainer flexColumn' style={{backgroundImage:`url(${require(`../assets/images/couples/${imageNames[counter]}`)})`}}>
-            <h1 className='cursiveFont goldColor title mb-10'>Capturing Love: <br />Wedding Couple's Journey</h1>
             <img key={counter} src={require(`../assets/images/couples/${imageNames[counter]}`)} alt={imageNames[counter]} />
         </div>
     )
