@@ -46,13 +46,13 @@ const Gallery = () => {
                         })
                     }
                 </div>
-                <div className="column">
+                {/* <div className="column">
                     {
                         imageNames?.map((imgurl,indx)=>{
                             return <img key={indx} src={require(`../assets/images/couples/${imgurl}`)} alt={imgurl} />
                         })
                     }
-                </div>
+                </div> */}
             </div>
         </div>
     )
