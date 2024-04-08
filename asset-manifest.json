@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/wedding-invitation/static/css/main.fbb338a8.css",
-    "main.js": "/wedding-invitation/static/js/main.207056da.js",
+    "main.css": "/wedding-invitation/static/css/main.29a747c5.css",
+    "main.js": "/wedding-invitation/static/js/main.43ec5f7e.js",
     "static/media/oops.png": "/wedding-invitation/static/media/oops.7584422c864a1f207424.png",
     "static/media/mask-group.png": "/wedding-invitation/static/media/mask-group.996c830771ac61bb067c.png",
     "static/media/heart.svg": "/wedding-invitation/static/media/heart.107fe46493ac8b7b1809a57e36f81612.svg",
     "index.html": "/wedding-invitation/index.html",
-    "main.fbb338a8.css.map": "/wedding-invitation/static/css/main.fbb338a8.css.map",
-    "main.207056da.js.map": "/wedding-invitation/static/js/main.207056da.js.map"
+    "main.29a747c5.css.map": "/wedding-invitation/static/css/main.29a747c5.css.map",
+    "main.43ec5f7e.js.map": "/wedding-invitation/static/js/main.43ec5f7e.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbb338a8.css",
-    "static/js/main.207056da.js"
+    "static/css/main.29a747c5.css",
+    "static/js/main.43ec5f7e.js"
   ]
 }
