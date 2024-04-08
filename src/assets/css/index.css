@@ -71,7 +71,7 @@
 
 .CarouselContainer a{
     color: white;
-    font-size: 12px;
+    font-size: 18px;
     /* text-decoration: none; */
 }
 
@@ -174,3 +174,9 @@
     font-size: 12px;
 }
 
+#venueAddress{
+    text-align: center;
+    margin: 20px 0;
+    color: #939985;
+    font-size: 18px;
+}

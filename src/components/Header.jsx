@@ -3,19 +3,17 @@ import React, { useState } from 'react'
 import "../assets/css/header.css"
 import heart from "../assets/images/heart.svg"
 import { FaVolumeMute, FaVolumeUp  } from "react-icons/fa";
-import {  POSTER } from '../assets/AssestUrls';
+import {  HEADERVIDEO, POSTER } from '../assets/AssestUrls';
 
 const Header = () => {
 
     const [mute, setmute] = useState(true);
 
-    const videoLink = "https://firebasestorage.googleapis.com/v0/b/tickiteasy-3c9ef.appspot.com/o/Wedding%2FVideo%2FFinal.mp4?alt=media&token=12c3d3aa-7ebd-4624-a16d-1b74430f9752"
-
     
     return (
         <>
         <section className='header' onClick={()=>{setmute(!mute)}}>
-            <video poster={POSTER} src={videoLink} loop autoPlay playsInline muted={mute}></video>
+            <video poster={POSTER} src={HEADERVIDEO} loop autoPlay playsInline muted={mute}></video>
             <div className="volumeIcons">
                 {
                     mute ? <FaVolumeMute /> : <FaVolumeUp />

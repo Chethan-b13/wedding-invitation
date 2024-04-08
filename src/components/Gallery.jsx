@@ -1,11 +1,11 @@
 import React, { useMemo } from 'react'
-import { GALLERY_IMG4, GALLERY_VIDEO1, IMAGE_2037, IMAGE_2968, IMAGE_3216, IMAGE_5170, IMAGE_7617 } from '../assets/AssestUrls';
+import { GALLERY_IMG4, GALLERY_VIDEO1, IMAGE_2037, IMAGE_2968, IMAGE_3216, IMAGE_5170, IMAGE_7617, ShortsImage } from '../assets/AssestUrls';
 
 const Gallery = () => {
 
     const imageNames = useMemo(() => [
         IMAGE_7617,
-        IMAGE_5170,
+        ShortsImage,
         GALLERY_IMG4
     ], []);
 
