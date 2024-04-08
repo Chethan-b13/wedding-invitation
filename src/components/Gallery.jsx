@@ -1,33 +1,29 @@
 import React, { useMemo } from 'react'
-import sampleVideo from '../assets/videos/sample1.mp4';
+import { GALLERY_IMG4, GALLERY_VIDEO1, IMAGE_2037, IMAGE_2968, IMAGE_3216, IMAGE_5170, IMAGE_7617 } from '../assets/AssestUrls';
 
 const Gallery = () => {
 
     const imageNames = useMemo(() => [
-        'ty-images1.jpg',
-        'brooke-cagle-oMtXGNw4ZEs-unsplash.jpg',
-        'callie-morgan-yXwxlJPsDeU-unsplash.jpg',
+        IMAGE_7617,
+        IMAGE_5170,
+        GALLERY_IMG4
     ], []);
 
     const imageNames2 = useMemo(() => [
-        'bride.jpg',
+        IMAGE_2968,
         "",
-        'brooke-cagle-oMtXGNw4ZEs-unsplash.jpg',
+        IMAGE_2037,
     ], []);
 
     return (
         <div className='gallery__container'>
-            <h1 className='cursiveFont goldColor title mb-10'>Wedding Couple's Gallery</h1>
+            <h1 className='cursiveFont goldColor title mb-10'>Our Love in Frames</h1>
             <div className="row">
                 <div className="column">
                     {
                         imageNames?.map((imgurl,indx)=>{
                             return (
-                                indx === 2 ?
-                                <div className="videoContainer horizontal">
-                                    <video key={indx} src={"https://firebasestorage.googleapis.com/v0/b/kalanidhi-kala-studios.appspot.com/o/sample3.mp4?alt=media&token=ddf07e1c-b83d-4353-ae82-87ae97a6ba90"} loop autoPlay playsInline muted></video>
-                                </div>
-                                : <img key={indx} src={require(`../assets/images/couples/${imgurl}`)} style={{width:"100%"}} alt={imgurl} />
+                                <img key={indx} src={imgurl} style={{width:"100%"}} alt={imgurl} />
                             )
                         })
                     }
@@ -38,9 +34,9 @@ const Gallery = () => {
                             return (
                                 indx === 1 ?
                                 <div className="videoContainer vertical">
-                                    <video key={indx} src={sampleVideo} loop autoPlay playsInline muted></video>
+                                    <video key={indx} src={GALLERY_VIDEO1} loop autoPlay playsInline muted></video>
                                 </div>
-                                : <img key={indx} src={require(`../assets/images/couples/${imgurl}`)} style={{width:"100%"}} alt={imgurl} />
+                                : <img key={indx} src={imgurl} style={{width:"100%",height:indx === 2 && "10rem"}} alt={imgurl} />
                             )
                         })
                     }

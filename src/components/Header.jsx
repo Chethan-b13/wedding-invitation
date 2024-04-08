@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 // import sampleVideo from '../assets/videos/sample1.mp4';
 import "../assets/css/header.css"
 import heart from "../assets/images/heart.svg"
-import poster from "../assets/images/main-banner.jpg"
 import { FaVolumeMute, FaVolumeUp  } from "react-icons/fa";
+import {  POSTER } from '../assets/AssestUrls';
 
 const Header = () => {
 
@@ -15,7 +15,7 @@ const Header = () => {
     return (
         <>
         <section className='header' onClick={()=>{setmute(!mute)}}>
-            <video poster={poster} src={videoLink} loop autoPlay playsInline muted={mute}></video>
+            <video poster={POSTER} src={videoLink} loop autoPlay playsInline muted={mute}></video>
             <div className="volumeIcons">
                 {
                     mute ? <FaVolumeMute /> : <FaVolumeUp />
