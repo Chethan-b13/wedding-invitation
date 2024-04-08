@@ -1,7 +1,7 @@
 {
   "name": "weddingcard",
   "version": "0.1.0",
-  "homepage": "https://Chethan-b13.github.io",
+  "homepage": "https://Chethan-b13.github.io/wedding-invitation",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
