@@ -9,8 +9,9 @@ const Header = () => {
 
     const [mute, setmute] = useState(true);
 
-    const videoLink = "https://firebasestorage.googleapis.com/v0/b/tickiteasy-3c9ef.appspot.com/o/Wedding%2FVideo%2Ffinal2.mp4?alt=media&token=8ae5cebf-893e-4b3e-aa04-fc2af7820213"
+    const videoLink = "https://firebasestorage.googleapis.com/v0/b/tickiteasy-3c9ef.appspot.com/o/Wedding%2FVideo%2FFinal.mp4?alt=media&token=12c3d3aa-7ebd-4624-a16d-1b74430f9752"
 
+    
     return (
         <>
         <section className='header' onClick={()=>{setmute(!mute)}}>
