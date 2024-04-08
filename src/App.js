@@ -5,19 +5,23 @@ import Gallery from "./components/Gallery";
 import Header from "./components/Header";
 import Map from "./components/Map";
 import MeetTheCouple from "./components/MeetTheCouple";
+import OnlyInMobile from "./components/OnlyInMobile";
 
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Countdown />
-      <MeetTheCouple />
-      <Map />
-      <Gallery />
-      <Carousel />
-      <Footer />
-    </div>
+    <>
+      <OnlyInMobile />
+      <div className="App">
+        <Header />
+        <Countdown />
+        <MeetTheCouple />
+        <Map />
+        <Gallery />
+        <Carousel />
+        <Footer />
+      </div>
+    </>
   );
 }
 

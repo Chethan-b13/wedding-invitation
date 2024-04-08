@@ -133,6 +133,10 @@
     width: 100%;
     border-radius: 8px;
 }
+
+
+
+
 /* 
 @media screen and (max-width: 800px) {
     .column {
@@ -167,3 +171,4 @@
 .footer__container svg{
     font-size: 12px;
 }
+
