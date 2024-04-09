@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react'
-import { GALLERY_IMG4, GALLERY_VIDEO1, IMAGE_2037, IMAGE_2968, IMAGE_3216, IMAGE_5170, IMAGE_7617, ShortsImage } from '../assets/AssestUrls';
+import { GALLERY_IMG4, GALLERY_VIDEO1, IMAGE_2037, IMAGE_2968, IMAGE_7617, ShortsImage } from '../assets/AssestUrls';
 
 const Gallery = () => {
 
@@ -41,13 +41,6 @@ const Gallery = () => {
                         })
                     }
                 </div>
-                {/* <div className="column">
-                    {
-                        imageNames?.map((imgurl,indx)=>{
-                            return <img key={indx} src={require(`../assets/images/couples/${imgurl}`)} alt={imgurl} />
-                        })
-                    }
-                </div> */}
             </div>
         </div>
     )
