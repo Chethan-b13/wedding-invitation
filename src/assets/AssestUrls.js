@@ -1,4 +1,5 @@
-export const FEATURED_IMAGE = "https://firebasestorage.googleapis.com/v0/b/tickiteasy-3c9ef.appspot.com/o/Wedding%2FImages%2Ffeatured_image.JPEG?alt=media&token=f41fe12b-a613-4bbc-a32f-d288c4d4b1f9"
+// export const FEATURED_IMAGE = "https://firebasestorage.googleapis.com/v0/b/tickiteasy-3c9ef.appspot.com/o/Wedding%2FImages%2Ffeatured_image.JPEG?alt=media&token=f41fe12b-a613-4bbc-a32f-d288c4d4b1f9"
+export const FEATURED_IMAGE = "https://firebasestorage.googleapis.com/v0/b/tickiteasy-3c9ef.appspot.com/o/Wedding%2FImages%2FOptimzed%2FfeatureImageoptimized.jpg?alt=media&token=85843e00-18bf-4d57-84d8-7f4e748196d1"
 export const GALLERYcENTRE_IMAGE = "https://firebasestorage.googleapis.com/v0/b/tickiteasy-3c9ef.appspot.com/o/Wedding%2FImages%2Fgallery_center.PNG?alt=media&token=a9f0358a-adab-4117-b244-3ab6b82c9a39"
 export const MEETTHECOUPLE_IMAGE = "https://firebasestorage.googleapis.com/v0/b/tickiteasy-3c9ef.appspot.com/o/Wedding%2FImages%2Fmeetthecouple.jpg?alt=media&token=d8c40e47-ba76-40ca-8de3-1f5296dc130a"
 export const GALLERY_VIDEO1 = "https://firebasestorage.googleapis.com/v0/b/tickiteasy-3c9ef.appspot.com/o/Wedding%2FImages%2FOptimzed%2FIMG_0049.mp4?alt=media&token=eb918a44-2760-4f8c-9a63-50bb6bc32cae"
