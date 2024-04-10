@@ -34,7 +34,11 @@ const Header = () => {
                 <h3 className='primaryTextColor'>INVITE YOU TO CELEBRATE</h3>
                 <h3 className='primaryTextColor'>THE JOY OF THEIR WEDDING DAY</h3>
             </div>
-            <h3 className='goldColor date'>April 22nd 2024</h3>
+            <div className="flexColumn">
+                <h3 className='goldColor date'>April 22nd 2024</h3>
+                <p className='primaryTextColor'>Muhurtham: 10:50 AM</p>
+                <p className='primaryTextColor'>Lunch: 1 PM</p>
+            </div>
         </section>
         </>
     )
