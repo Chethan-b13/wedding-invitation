@@ -12,4 +12,5 @@ export const IMAGE_7617 = "https://firebasestorage.googleapis.com/v0/b/tickiteas
 export const POSTER = "https://firebasestorage.googleapis.com/v0/b/tickiteasy-3c9ef.appspot.com/o/Wedding%2FImages%2FOptimzed%2FWhatsApp%20Image%202024-04-09%20at%2011.14.05_19fedd5a.jpg?alt=media&token=9d494b17-9eb1-46d4-b3ed-f30605fae64d"
 export const GALLERY_IMG4 = "https://firebasestorage.googleapis.com/v0/b/tickiteasy-3c9ef.appspot.com/o/Wedding%2FImages%2FOptimzed%2Fjpeg-optimizer_IMG_6529.jpeg?alt=media&token=d88f0678-f836-40bd-9030-21f06e528e8d"
 export const ShortsImage = "https://firebasestorage.googleapis.com/v0/b/tickiteasy-3c9ef.appspot.com/o/Wedding%2FImages%2FOptimzed%2Fjpeg-optimizer_IMG_5170.JPEG?alt=media&token=5c3ed5f9-094f-4064-abdb-4c9802ccbb48"
-export const HEADERVIDEO= "https://firebasestorage.googleapis.com/v0/b/tickiteasy-3c9ef.appspot.com/o/Wedding%2FVideo%2FFinal.mp4?alt=media&token=12c3d3aa-7ebd-4624-a16d-1b74430f9752"
+// export const HEADERVIDEO= "https://firebasestorage.googleapis.com/v0/b/tickiteasy-3c9ef.appspot.com/o/Wedding%2FVideo%2FFinal.mp4?alt=media&token=12c3d3aa-7ebd-4624-a16d-1b74430f9752"
+export const HEADERVIDEO= "https://firebasestorage.googleapis.com/v0/b/tickiteasy-3c9ef.appspot.com/o/Wedding%2FVideo%2FNeesigovaregu.mp4?alt=media&token=104dac78-a5ec-421e-a023-c29e446da23f"
